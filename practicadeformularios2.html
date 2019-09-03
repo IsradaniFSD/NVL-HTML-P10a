@@ -1,0 +1,54 @@
+<form method="post" action="">
+<h2><b>Encuesta de Satisfacción</b></h2>
+    <div>
+      <label for="cod">Codigo Postal:</label></th>
+      <input id="codigo" type="number">
+    </div>
+    <br>
+    <div>
+      <label for="nivsat">Nivel de Satisfaccion con el producto:</label>
+      <select id="Nivel de Satisfaccion">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+  </div>
+  <br>
+  <div>
+      <label for="mail">Email:</label>
+      <input id="mail" type="text">
+    </div>
+    <br>
+  <div>
+    <label for="puntosp">Puntos positivos del producto:</label>
+    <textarea id="comen"></textarea>
+  </div>
+  <br>
+  <div>
+    <label for="puntosn">Puntos negativos del producto:</label>
+    <textarea id="comen"></textarea>
+  </div>
+  <br>
+    <div>
+      <h4>Escoge una de las opciones</h4>
+      <form action="/action_page.php">
+      <select name="Listado">
+      <option value="Excelente">Excelente</option>
+      <option value="Bueno">Bueno</option>
+      <option value="Regular">Regular</option>
+      <option value="Pesimo">Pésimo</option>
+      </select>
+      </form>
+   </div>
+   <div>
+    <h4>Escoge una de las opciones</h4>
+    <input type="radio" name="opcion" value="Excelente"> Excelente <br>
+    <input type="radio" name="opcion" value="Bueno"> Bueno <br>
+    <input type="radio" name="opcion" value="Regular"> Regular <br>
+    <input type="radio" name="opcion" value="Pesimo"> Pésimo <br>
+    <br>
+  <input type="submit" value="enviar"> 
+</div>
+</form>
